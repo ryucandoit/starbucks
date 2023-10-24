@@ -50,7 +50,7 @@ window.addEventListener(
 ); // _.throttle(함수,시간)
 
 toTopEl.addEventListener('click', function () {
-  gsap.to(widnow, 0.7, {
+  gsap.to(window, 0.7, {
     scrollTo: 0, // 0.7초동안 스크롤을 맨 위인 0지점으로 올려주겠다.
   });
 });
